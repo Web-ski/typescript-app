@@ -1,7 +1,7 @@
 {
   "name": "typescript-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Based on the Understanding Typescript course by Maximilian Schwarzmüller",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Web-ski/typescript-app/issues"
   },
-  "homepage": "https://github.com/Web-ski/typescript-app#readme"
+  "homepage": "https://github.com/Web-ski/typescript-app#readme",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
 }
