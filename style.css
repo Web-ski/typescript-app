@@ -2,6 +2,7 @@
 	--blue: royalblue;
 	--dark: #004282;
 	--gray: #c6d8ff;
+	--light: #edf4ff;
 }
 
 * {
@@ -18,7 +19,7 @@ body {
 
 h1 {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
 label,
 input,
@@ -43,7 +44,7 @@ textarea {
 input:focus,
 textarea:focus {
 	outline: none;
-	background: #fff5f9;
+	background: var(--light);
 }
 
 button {
@@ -126,7 +127,7 @@ background: #ffe3ee;
 }
 
 #finished-projects .droppable {
-background: #d6e1ff;
+background: var(--light);
 }
 
 #user-input {
